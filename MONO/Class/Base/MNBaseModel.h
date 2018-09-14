@@ -40,6 +40,8 @@
 @property(nonatomic,strong) NSString *logo_url;
 
 @end
+
+
 @interface MNBaseModel : BaseModel
 
 
