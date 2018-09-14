@@ -32,6 +32,11 @@
 		DBA88D79214B91EE00514269 /* MBProgressHUD+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D69214B91EE00514269 /* MBProgressHUD+Message.m */; };
 		DBA88D7F214B964D00514269 /* MNBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D7E214B964D00514269 /* MNBaseController.m */; };
 		DBA88D82214BA14200514269 /* MNBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D81214BA14200514269 /* MNBaseTabBarController.m */; };
+		DBA88D88214BA51700514269 /* MNNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D87214BA51700514269 /* MNNavigationController.m */; };
+		DBA88D8B214BA63600514269 /* RecommendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D8A214BA63600514269 /* RecommendVC.m */; };
+		DBA88D8E214BA64C00514269 /* DiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D8D214BA64C00514269 /* DiscoverVC.m */; };
+		DBA88D94214BA67600514269 /* MineVc.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D93214BA67600514269 /* MineVc.m */; };
+		DBA88D97214BA68B00514269 /* CommunityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D96214BA68B00514269 /* CommunityVC.m */; };
 		DBD4A2AD214B2A2E00C3FA70 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD4A261214B2A2D00C3FA70 /* MBProgressHUD.m */; };
 		DBD4A2AE214B2A2E00C3FA70 /* MBSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD4A263214B2A2D00C3FA70 /* MBSwitch.m */; };
 		DBD4A2AF214B2A2E00C3FA70 /* ACActionSheet.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DBD4A267214B2A2D00C3FA70 /* ACActionSheet.bundle */; };
@@ -115,6 +120,16 @@
 		DBA88D7E214B964D00514269 /* MNBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNBaseController.m; sourceTree = "<group>"; };
 		DBA88D80214BA14200514269 /* MNBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNBaseTabBarController.h; sourceTree = "<group>"; };
 		DBA88D81214BA14200514269 /* MNBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNBaseTabBarController.m; sourceTree = "<group>"; };
+		DBA88D86214BA51700514269 /* MNNavigationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNNavigationController.h; sourceTree = "<group>"; };
+		DBA88D87214BA51700514269 /* MNNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNNavigationController.m; sourceTree = "<group>"; };
+		DBA88D89214BA63600514269 /* RecommendVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RecommendVC.h; sourceTree = "<group>"; };
+		DBA88D8A214BA63600514269 /* RecommendVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RecommendVC.m; sourceTree = "<group>"; };
+		DBA88D8C214BA64C00514269 /* DiscoverVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DiscoverVC.h; sourceTree = "<group>"; };
+		DBA88D8D214BA64C00514269 /* DiscoverVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DiscoverVC.m; sourceTree = "<group>"; };
+		DBA88D92214BA67600514269 /* MineVc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MineVc.h; sourceTree = "<group>"; };
+		DBA88D93214BA67600514269 /* MineVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVc.m; sourceTree = "<group>"; };
+		DBA88D95214BA68B00514269 /* CommunityVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommunityVC.h; sourceTree = "<group>"; };
+		DBA88D96214BA68B00514269 /* CommunityVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommunityVC.m; sourceTree = "<group>"; };
 		DBD4A260214B298600C3FA70 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		DBD4A261214B2A2D00C3FA70 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		DBD4A263214B2A2D00C3FA70 /* MBSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSwitch.m; sourceTree = "<group>"; };
@@ -406,6 +421,8 @@
 		DBA88D6F214B91EE00514269 /* Community */ = {
 			isa = PBXGroup;
 			children = (
+				DBA88D95214BA68B00514269 /* CommunityVC.h */,
+				DBA88D96214BA68B00514269 /* CommunityVC.m */,
 			);
 			path = Community;
 			sourceTree = "<group>";
@@ -413,6 +430,8 @@
 		DBA88D70214B91EE00514269 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				DBA88D92214BA67600514269 /* MineVc.h */,
+				DBA88D93214BA67600514269 /* MineVc.m */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -420,6 +439,8 @@
 		DBA88D71214B91EE00514269 /* Recommend */ = {
 			isa = PBXGroup;
 			children = (
+				DBA88D89214BA63600514269 /* RecommendVC.h */,
+				DBA88D8A214BA63600514269 /* RecommendVC.m */,
 			);
 			path = Recommend;
 			sourceTree = "<group>";
@@ -427,6 +448,8 @@
 		DBA88D72214B91EE00514269 /* Discover */ = {
 			isa = PBXGroup;
 			children = (
+				DBA88D8C214BA64C00514269 /* DiscoverVC.h */,
+				DBA88D8D214BA64C00514269 /* DiscoverVC.m */,
 			);
 			path = Discover;
 			sourceTree = "<group>";
@@ -438,6 +461,8 @@
 				DBA88D7E214B964D00514269 /* MNBaseController.m */,
 				DBA88D80214BA14200514269 /* MNBaseTabBarController.h */,
 				DBA88D81214BA14200514269 /* MNBaseTabBarController.m */,
+				DBA88D86214BA51700514269 /* MNNavigationController.h */,
+				DBA88D87214BA51700514269 /* MNNavigationController.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -724,9 +749,11 @@
 				DBA88D5A214B918E00514269 /* UIImage+LaunchImage.m in Sources */,
 				DBD4A2CA214B2A2E00C3FA70 /* YBImageBrowserProgressBar.m in Sources */,
 				DBD4A2B0214B2A2E00C3FA70 /* ACActionSheet.m in Sources */,
+				DBA88D97214BA68B00514269 /* CommunityVC.m in Sources */,
 				DB8709AF214A64D6003049C5 /* main.m in Sources */,
 				DBD4A2BE214B2A2E00C3FA70 /* YBImageBrowserFunctionBar.m in Sources */,
 				DBD4A2BA214B2A2E00C3FA70 /* RQShineLabel.m in Sources */,
+				DBA88D94214BA67600514269 /* MineVc.m in Sources */,
 				DBA88D5C214B918E00514269 /* MNNetworkTool.m in Sources */,
 				DBD4A2BC214B2A2E00C3FA70 /* YBImageBrowserAnimatedTransitioning.m in Sources */,
 				DBA88D74214B91EE00514269 /* NSDictionary+Additions.m in Sources */,
@@ -738,9 +765,11 @@
 				DBD4A2B4214B2A2E00C3FA70 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				DBA88D5F214B918E00514269 /* MNRefreshBlackHeader.m in Sources */,
 				DBA88D78214B91EE00514269 /* UIImageView+WebLoad.m in Sources */,
+				DBA88D8E214BA64C00514269 /* DiscoverVC.m in Sources */,
 				DBD4A2C3214B2A2E00C3FA70 /* YBImageBrowserModel.m in Sources */,
 				DBD4A2C7214B2A2E00C3FA70 /* YBImageBrowserUtilities.m in Sources */,
 				DBA88D76214B91EE00514269 /* UIColor+Additions.m in Sources */,
+				DBA88D8B214BA63600514269 /* RecommendVC.m in Sources */,
 				DBD4A2B1214B2A2E00C3FA70 /* SPPageMenu.m in Sources */,
 				DBA88D79214B91EE00514269 /* MBProgressHUD+Message.m in Sources */,
 				DBD4A2C5214B2A2E00C3FA70 /* YBImageBrowserCopywriter.m in Sources */,
@@ -759,6 +788,7 @@
 				DBD4A2B9214B2A2E00C3FA70 /* UIViewController+JKRouter.m in Sources */,
 				DBD4A2BD214B2A2E00C3FA70 /* YBImageBrowserFunctionModel.m in Sources */,
 				DBD4A2C2214B2A2E00C3FA70 /* YBImageBrowserView.m in Sources */,
+				DBA88D88214BA51700514269 /* MNNavigationController.m in Sources */,
 				DBD4A2C4214B2A2E00C3FA70 /* YBImageBrowserViewLayout.m in Sources */,
 				DBA88D7F214B964D00514269 /* MNBaseController.m in Sources */,
 				DBD4A2C0214B2A2E00C3FA70 /* YBImageBrowser.m in Sources */,
