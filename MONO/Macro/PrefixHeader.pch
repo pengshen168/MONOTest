@@ -9,7 +9,51 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#import "UIView+Additions.h"
+#import "SDAutoLayout.h"
+#import <ReactiveCocoa.h>
+#import "NSDictionary+Additions.h"
+#import "UIImageView+WebLoad.h"
+#import "MBProgressHUD+Message.h"
+#import "UIColor+Additions.h"
+#import "CommendMethod.h"
+#import "MNMusicPlayer.h"
+#import "MonoEnum.h"
+#import "JKRouter.h"
+#endif
+
+#ifndef dispatch_main_async_safe
+#define dispatch_main_async_safe(block)\
+if (strcmp(dispatch_queue_get_label(DISPATCH_CURRENT_QUEUE_LABEL), dispatch_queue_get_label(dispatch_get_main_queue())) == 0) {\
+block();\
+} else {\
+dispatch_async(dispatch_get_main_queue(), block);\
+}
+#endif
+
+#define iPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+#define IOS11 ([[UIDevice currentDevice].systemVersion intValue] >= 11 ? YES : NO)
+#define SCREEN_HEIGHT     ([[UIScreen mainScreen] bounds].size.height)
+#define SCREEN_WIDTH      ([[UIScreen mainScreen] bounds].size.width)
+#define WEAKSELF __weak typeof(&*self) weakSelf = self;
+#define ImageNamed(_pointer) [UIImage imageNamed:[UIUtil imageName:_pointer］
+#define LIGHTFONT(F) [UIFont systemFontOfSize:F weight:UIFontWeightLight]
+#define REGULARFONT(F) [UIFont systemFontOfSize:F weight:UIFontWeightRegular]
+#define THINFONT(F) [UIFont systemFontOfSize:F weight:UIFontWeightThin]
+
+#define KStatusBarHeight (iPhoneX ? 24.f:0.f)
+#define KStatusBarMargin (iPhoneX ? 22.f:0.f)
+#define KTabBarHeight    (iPhoneX ? 83.f:49.f)
+
+#define pageMenuH 40
+#define NaviH (SCREEN_HEIGHT == 812 ? 88 : 64) // 812是iPhoneX的高度
+#define KWaterSpace     3.0
+#define KMarginLeft     12.0
+#define KMarginRight    12.0
+
+#define BaseUrl @"http://mmmono.com/api/v3/"
+#define DiscoveryNextNewRecommend   BaseURL@"/discover/nextNewRecommend"
+
 
 #endif /* PrefixHeader_pch */

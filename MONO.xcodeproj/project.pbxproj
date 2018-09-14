@@ -14,6 +14,22 @@
 		DB8709AC214A64D6003049C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB8709AA214A64D6003049C5 /* LaunchScreen.storyboard */; };
 		DB8709AF214A64D6003049C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8709AE214A64D6003049C5 /* main.m */; };
 		DB8709BD214A669F003049C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB8709B8214A669F003049C5 /* AppDelegate.m */; };
+		DBA88D57214B918E00514269 /* CommendMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D41214B918E00514269 /* CommendMethod.m */; };
+		DBA88D58214B918E00514269 /* GGStartMovieView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D44214B918E00514269 /* GGStartMovieView.m */; };
+		DBA88D59214B918E00514269 /* PushAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D45214B918E00514269 /* PushAnimationView.m */; };
+		DBA88D5A214B918E00514269 /* UIImage+LaunchImage.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D46214B918E00514269 /* UIImage+LaunchImage.m */; };
+		DBA88D5B214B918E00514269 /* GGStartMovieHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D4B214B918E00514269 /* GGStartMovieHelper.m */; };
+		DBA88D5C214B918E00514269 /* MNNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D4E214B918E00514269 /* MNNetworkTool.m */; };
+		DBA88D5D214B918E00514269 /* MNMusicPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D50214B918E00514269 /* MNMusicPlayer.m */; };
+		DBA88D5E214B918E00514269 /* MNRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D53214B918E00514269 /* MNRefreshFooter.m */; };
+		DBA88D5F214B918E00514269 /* MNRefreshBlackHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D56214B918E00514269 /* MNRefreshBlackHeader.m */; };
+		DBA88D73214B91EE00514269 /* NSObject+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D61214B91ED00514269 /* NSObject+Additions.m */; };
+		DBA88D74214B91EE00514269 /* NSDictionary+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D63214B91EE00514269 /* NSDictionary+Additions.m */; };
+		DBA88D75214B91EE00514269 /* NSArray+MHAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D64214B91EE00514269 /* NSArray+MHAdd.m */; };
+		DBA88D76214B91EE00514269 /* UIColor+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D65214B91EE00514269 /* UIColor+Additions.m */; };
+		DBA88D77214B91EE00514269 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D66214B91EE00514269 /* UIView+Additions.m */; };
+		DBA88D78214B91EE00514269 /* UIImageView+WebLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D67214B91EE00514269 /* UIImageView+WebLoad.m */; };
+		DBA88D79214B91EE00514269 /* MBProgressHUD+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D69214B91EE00514269 /* MBProgressHUD+Message.m */; };
 		DBD4A2AD214B2A2E00C3FA70 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD4A261214B2A2D00C3FA70 /* MBProgressHUD.m */; };
 		DBD4A2AE214B2A2E00C3FA70 /* MBSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD4A263214B2A2D00C3FA70 /* MBSwitch.m */; };
 		DBD4A2AF214B2A2E00C3FA70 /* ACActionSheet.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DBD4A267214B2A2D00C3FA70 /* ACActionSheet.bundle */; };
@@ -60,6 +76,39 @@
 		DB8709AE214A64D6003049C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB8709B7214A669F003049C5 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB8709B8214A669F003049C5 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DBA88D40214B918E00514269 /* CommendMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommendMethod.h; sourceTree = "<group>"; };
+		DBA88D41214B918E00514269 /* CommendMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommendMethod.m; sourceTree = "<group>"; };
+		DBA88D44214B918E00514269 /* GGStartMovieView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGStartMovieView.m; sourceTree = "<group>"; };
+		DBA88D45214B918E00514269 /* PushAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushAnimationView.m; sourceTree = "<group>"; };
+		DBA88D46214B918E00514269 /* UIImage+LaunchImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LaunchImage.m"; sourceTree = "<group>"; };
+		DBA88D47214B918E00514269 /* GGStartMovieHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGStartMovieHelper.h; sourceTree = "<group>"; };
+		DBA88D48214B918E00514269 /* PushAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushAnimationView.h; sourceTree = "<group>"; };
+		DBA88D49214B918E00514269 /* GGStartMovieView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GGStartMovieView.h; sourceTree = "<group>"; };
+		DBA88D4A214B918E00514269 /* UIImage+LaunchImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LaunchImage.h"; sourceTree = "<group>"; };
+		DBA88D4B214B918E00514269 /* GGStartMovieHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GGStartMovieHelper.m; sourceTree = "<group>"; };
+		DBA88D4D214B918E00514269 /* MNNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNNetworkTool.h; sourceTree = "<group>"; };
+		DBA88D4E214B918E00514269 /* MNNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNNetworkTool.m; sourceTree = "<group>"; };
+		DBA88D50214B918E00514269 /* MNMusicPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNMusicPlayer.m; sourceTree = "<group>"; };
+		DBA88D51214B918E00514269 /* MNMusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNMusicPlayer.h; sourceTree = "<group>"; };
+		DBA88D53214B918E00514269 /* MNRefreshFooter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNRefreshFooter.m; sourceTree = "<group>"; };
+		DBA88D54214B918E00514269 /* MNRefreshBlackHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNRefreshBlackHeader.h; sourceTree = "<group>"; };
+		DBA88D55214B918E00514269 /* MNRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNRefreshFooter.h; sourceTree = "<group>"; };
+		DBA88D56214B918E00514269 /* MNRefreshBlackHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNRefreshBlackHeader.m; sourceTree = "<group>"; };
+		DBA88D61214B91ED00514269 /* NSObject+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Additions.m"; sourceTree = "<group>"; };
+		DBA88D62214B91ED00514269 /* MBProgressHUD+Message.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+Message.h"; sourceTree = "<group>"; };
+		DBA88D63214B91EE00514269 /* NSDictionary+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Additions.m"; sourceTree = "<group>"; };
+		DBA88D64214B91EE00514269 /* NSArray+MHAdd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+MHAdd.m"; sourceTree = "<group>"; };
+		DBA88D65214B91EE00514269 /* UIColor+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Additions.m"; sourceTree = "<group>"; };
+		DBA88D66214B91EE00514269 /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		DBA88D67214B91EE00514269 /* UIImageView+WebLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+WebLoad.m"; sourceTree = "<group>"; };
+		DBA88D68214B91EE00514269 /* NSDictionary+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Additions.h"; sourceTree = "<group>"; };
+		DBA88D69214B91EE00514269 /* MBProgressHUD+Message.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+Message.m"; sourceTree = "<group>"; };
+		DBA88D6A214B91EE00514269 /* NSObject+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Additions.h"; sourceTree = "<group>"; };
+		DBA88D6B214B91EE00514269 /* UIColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Additions.h"; sourceTree = "<group>"; };
+		DBA88D6C214B91EE00514269 /* NSArray+MHAdd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+MHAdd.h"; sourceTree = "<group>"; };
+		DBA88D6D214B91EE00514269 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		DBA88D6E214B91EE00514269 /* UIImageView+WebLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebLoad.h"; sourceTree = "<group>"; };
+		DBA88D7B214B946E00514269 /* MonoEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonoEnum.h; sourceTree = "<group>"; };
 		DBD4A260214B298600C3FA70 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		DBD4A261214B2A2D00C3FA70 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		DBD4A263214B2A2D00C3FA70 /* MBSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSwitch.m; sourceTree = "<group>"; };
@@ -197,6 +246,11 @@
 		DB8709B5214A669F003049C5 /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				DBA88D3F214B918E00514269 /* CommendMethod */,
+				DBA88D52214B918E00514269 /* MHRefresh */,
+				DBA88D4F214B918E00514269 /* MNMusicPlayer */,
+				DBA88D42214B918E00514269 /* MoviewHelper */,
+				DBA88D4C214B918E00514269 /* NetWork */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -243,6 +297,7 @@
 			isa = PBXGroup;
 			children = (
 				DBD4A260214B298600C3FA70 /* PrefixHeader.pch */,
+				DBA88D7B214B946E00514269 /* MonoEnum.h */,
 			);
 			path = Macro;
 			sourceTree = "<group>";
@@ -250,8 +305,123 @@
 		DB8709BC214A669F003049C5 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				DBA88D60214B91ED00514269 /* Categorys */,
+				DBA88D6F214B91EE00514269 /* Community */,
+				DBA88D72214B91EE00514269 /* Discover */,
+				DBA88D70214B91EE00514269 /* Mine */,
+				DBA88D71214B91EE00514269 /* Recommend */,
 			);
 			path = Class;
+			sourceTree = "<group>";
+		};
+		DBA88D3F214B918E00514269 /* CommendMethod */ = {
+			isa = PBXGroup;
+			children = (
+				DBA88D40214B918E00514269 /* CommendMethod.h */,
+				DBA88D41214B918E00514269 /* CommendMethod.m */,
+			);
+			path = CommendMethod;
+			sourceTree = "<group>";
+		};
+		DBA88D42214B918E00514269 /* MoviewHelper */ = {
+			isa = PBXGroup;
+			children = (
+				DBA88D43214B918E00514269 /* GGStarMovieHelper */,
+			);
+			path = MoviewHelper;
+			sourceTree = "<group>";
+		};
+		DBA88D43214B918E00514269 /* GGStarMovieHelper */ = {
+			isa = PBXGroup;
+			children = (
+				DBA88D44214B918E00514269 /* GGStartMovieView.m */,
+				DBA88D45214B918E00514269 /* PushAnimationView.m */,
+				DBA88D46214B918E00514269 /* UIImage+LaunchImage.m */,
+				DBA88D47214B918E00514269 /* GGStartMovieHelper.h */,
+				DBA88D48214B918E00514269 /* PushAnimationView.h */,
+				DBA88D49214B918E00514269 /* GGStartMovieView.h */,
+				DBA88D4A214B918E00514269 /* UIImage+LaunchImage.h */,
+				DBA88D4B214B918E00514269 /* GGStartMovieHelper.m */,
+			);
+			path = GGStarMovieHelper;
+			sourceTree = "<group>";
+		};
+		DBA88D4C214B918E00514269 /* NetWork */ = {
+			isa = PBXGroup;
+			children = (
+				DBA88D4D214B918E00514269 /* MNNetworkTool.h */,
+				DBA88D4E214B918E00514269 /* MNNetworkTool.m */,
+			);
+			path = NetWork;
+			sourceTree = "<group>";
+		};
+		DBA88D4F214B918E00514269 /* MNMusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				DBA88D50214B918E00514269 /* MNMusicPlayer.m */,
+				DBA88D51214B918E00514269 /* MNMusicPlayer.h */,
+			);
+			path = MNMusicPlayer;
+			sourceTree = "<group>";
+		};
+		DBA88D52214B918E00514269 /* MHRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				DBA88D53214B918E00514269 /* MNRefreshFooter.m */,
+				DBA88D54214B918E00514269 /* MNRefreshBlackHeader.h */,
+				DBA88D55214B918E00514269 /* MNRefreshFooter.h */,
+				DBA88D56214B918E00514269 /* MNRefreshBlackHeader.m */,
+			);
+			path = MHRefresh;
+			sourceTree = "<group>";
+		};
+		DBA88D60214B91ED00514269 /* Categorys */ = {
+			isa = PBXGroup;
+			children = (
+				DBA88D61214B91ED00514269 /* NSObject+Additions.m */,
+				DBA88D62214B91ED00514269 /* MBProgressHUD+Message.h */,
+				DBA88D63214B91EE00514269 /* NSDictionary+Additions.m */,
+				DBA88D64214B91EE00514269 /* NSArray+MHAdd.m */,
+				DBA88D65214B91EE00514269 /* UIColor+Additions.m */,
+				DBA88D66214B91EE00514269 /* UIView+Additions.m */,
+				DBA88D67214B91EE00514269 /* UIImageView+WebLoad.m */,
+				DBA88D68214B91EE00514269 /* NSDictionary+Additions.h */,
+				DBA88D69214B91EE00514269 /* MBProgressHUD+Message.m */,
+				DBA88D6A214B91EE00514269 /* NSObject+Additions.h */,
+				DBA88D6B214B91EE00514269 /* UIColor+Additions.h */,
+				DBA88D6C214B91EE00514269 /* NSArray+MHAdd.h */,
+				DBA88D6D214B91EE00514269 /* UIView+Additions.h */,
+				DBA88D6E214B91EE00514269 /* UIImageView+WebLoad.h */,
+			);
+			path = Categorys;
+			sourceTree = "<group>";
+		};
+		DBA88D6F214B91EE00514269 /* Community */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Community;
+			sourceTree = "<group>";
+		};
+		DBA88D70214B91EE00514269 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		DBA88D71214B91EE00514269 /* Recommend */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Recommend;
+			sourceTree = "<group>";
+		};
+		DBA88D72214B91EE00514269 /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Discover;
 			sourceTree = "<group>";
 		};
 		DBD4A262214B2A2D00C3FA70 /* MBSwitch */ = {
@@ -530,35 +700,51 @@
 			buildActionMask = 2147483647;
 			files = (
 				DBD4A2C6214B2A2E00C3FA70 /* NSBundle+YBImageBrowser.m in Sources */,
+				DBA88D5B214B918E00514269 /* GGStartMovieHelper.m in Sources */,
 				DB8709A4214A64D4003049C5 /* ViewController.m in Sources */,
+				DBA88D5A214B918E00514269 /* UIImage+LaunchImage.m in Sources */,
 				DBD4A2CA214B2A2E00C3FA70 /* YBImageBrowserProgressBar.m in Sources */,
 				DBD4A2B0214B2A2E00C3FA70 /* ACActionSheet.m in Sources */,
 				DB8709AF214A64D6003049C5 /* main.m in Sources */,
 				DBD4A2BE214B2A2E00C3FA70 /* YBImageBrowserFunctionBar.m in Sources */,
 				DBD4A2BA214B2A2E00C3FA70 /* RQShineLabel.m in Sources */,
+				DBA88D5C214B918E00514269 /* MNNetworkTool.m in Sources */,
 				DBD4A2BC214B2A2E00C3FA70 /* YBImageBrowserAnimatedTransitioning.m in Sources */,
+				DBA88D74214B91EE00514269 /* NSDictionary+Additions.m in Sources */,
+				DBA88D59214B918E00514269 /* PushAnimationView.m in Sources */,
 				DBD4A2B5214B2A2E00C3FA70 /* YYFPSLabel.m in Sources */,
 				DB8709BD214A669F003049C5 /* AppDelegate.m in Sources */,
+				DBA88D58214B918E00514269 /* GGStartMovieView.m in Sources */,
 				DBD4A2B4214B2A2E00C3FA70 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
+				DBA88D5F214B918E00514269 /* MNRefreshBlackHeader.m in Sources */,
+				DBA88D78214B91EE00514269 /* UIImageView+WebLoad.m in Sources */,
 				DBD4A2C3214B2A2E00C3FA70 /* YBImageBrowserModel.m in Sources */,
 				DBD4A2C7214B2A2E00C3FA70 /* YBImageBrowserUtilities.m in Sources */,
+				DBA88D76214B91EE00514269 /* UIColor+Additions.m in Sources */,
 				DBD4A2B1214B2A2E00C3FA70 /* SPPageMenu.m in Sources */,
+				DBA88D79214B91EE00514269 /* MBProgressHUD+Message.m in Sources */,
 				DBD4A2C5214B2A2E00C3FA70 /* YBImageBrowserCopywriter.m in Sources */,
 				DBD4A2B8214B2A2E00C3FA70 /* JKRouter.m in Sources */,
 				DBD4A2B6214B2A2E00C3FA70 /* JKJSONHandler.m in Sources */,
 				DBD4A2B3214B2A2E00C3FA70 /* UIView+SDAutoLayout.m in Sources */,
 				DBD4A2C1214B2A2E00C3FA70 /* YBImageBrowserCell.m in Sources */,
 				DBD4A2AE214B2A2E00C3FA70 /* MBSwitch.m in Sources */,
+				DBA88D77214B91EE00514269 /* UIView+Additions.m in Sources */,
 				DBD4A2AD214B2A2E00C3FA70 /* MBProgressHUD.m in Sources */,
+				DBA88D73214B91EE00514269 /* NSObject+Additions.m in Sources */,
 				DBD4A2BF214B2A2E00C3FA70 /* YBImageBrowserToolBar.m in Sources */,
+				DBA88D5D214B918E00514269 /* MNMusicPlayer.m in Sources */,
 				DBD4A2BB214B2A2E00C3FA70 /* YYWeakProxy.m in Sources */,
+				DBA88D5E214B918E00514269 /* MNRefreshFooter.m in Sources */,
 				DBD4A2B9214B2A2E00C3FA70 /* UIViewController+JKRouter.m in Sources */,
 				DBD4A2BD214B2A2E00C3FA70 /* YBImageBrowserFunctionModel.m in Sources */,
 				DBD4A2C2214B2A2E00C3FA70 /* YBImageBrowserView.m in Sources */,
 				DBD4A2C4214B2A2E00C3FA70 /* YBImageBrowserViewLayout.m in Sources */,
 				DBD4A2C0214B2A2E00C3FA70 /* YBImageBrowser.m in Sources */,
 				DBD4A2B2214B2A2E00C3FA70 /* XDProgressView.m in Sources */,
+				DBA88D75214B91EE00514269 /* NSArray+MHAdd.m in Sources */,
 				DBD4A2C8214B2A2E00C3FA70 /* YBImageBrowserDownloader.m in Sources */,
+				DBA88D57214B918E00514269 /* CommendMethod.m in Sources */,
 				DBD4A2C9214B2A2E00C3FA70 /* YBImageBrowserPromptBar.m in Sources */,
 				DBD4A2B7214B2A2E00C3FA70 /* JKRouterExtension.m in Sources */,
 			);
