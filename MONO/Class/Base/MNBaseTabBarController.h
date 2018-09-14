@@ -1,8 +1,8 @@
 //
-//  ViewController.h
+//  MNBaseTabBarController.h
 //  MONO
 //
-//  Created by 万启鹏 on 2018/9/13.
+//  Created by 万启鹏 on 2018/9/14.
 //  Copyright © 2018年 万启鹏. All rights reserved.
 //
 
@@ -10,9 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ViewController : UIViewController
+@interface MNBaseTabBarController : UITabBarController
 
 @end
 
 NS_ASSUME_NONNULL_END
-

@@ -30,6 +30,8 @@
 		DBA88D77214B91EE00514269 /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D66214B91EE00514269 /* UIView+Additions.m */; };
 		DBA88D78214B91EE00514269 /* UIImageView+WebLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D67214B91EE00514269 /* UIImageView+WebLoad.m */; };
 		DBA88D79214B91EE00514269 /* MBProgressHUD+Message.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D69214B91EE00514269 /* MBProgressHUD+Message.m */; };
+		DBA88D7F214B964D00514269 /* MNBaseController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D7E214B964D00514269 /* MNBaseController.m */; };
+		DBA88D82214BA14200514269 /* MNBaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D81214BA14200514269 /* MNBaseTabBarController.m */; };
 		DBD4A2AD214B2A2E00C3FA70 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD4A261214B2A2D00C3FA70 /* MBProgressHUD.m */; };
 		DBD4A2AE214B2A2E00C3FA70 /* MBSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD4A263214B2A2D00C3FA70 /* MBSwitch.m */; };
 		DBD4A2AF214B2A2E00C3FA70 /* ACActionSheet.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DBD4A267214B2A2D00C3FA70 /* ACActionSheet.bundle */; };
@@ -109,6 +111,10 @@
 		DBA88D6D214B91EE00514269 /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
 		DBA88D6E214B91EE00514269 /* UIImageView+WebLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+WebLoad.h"; sourceTree = "<group>"; };
 		DBA88D7B214B946E00514269 /* MonoEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MonoEnum.h; sourceTree = "<group>"; };
+		DBA88D7D214B964D00514269 /* MNBaseController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNBaseController.h; sourceTree = "<group>"; };
+		DBA88D7E214B964D00514269 /* MNBaseController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNBaseController.m; sourceTree = "<group>"; };
+		DBA88D80214BA14200514269 /* MNBaseTabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MNBaseTabBarController.h; sourceTree = "<group>"; };
+		DBA88D81214BA14200514269 /* MNBaseTabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MNBaseTabBarController.m; sourceTree = "<group>"; };
 		DBD4A260214B298600C3FA70 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		DBD4A261214B2A2D00C3FA70 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		DBD4A263214B2A2D00C3FA70 /* MBSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSwitch.m; sourceTree = "<group>"; };
@@ -305,6 +311,7 @@
 		DB8709BC214A669F003049C5 /* Class */ = {
 			isa = PBXGroup;
 			children = (
+				DBA88D7C214B963E00514269 /* Base */,
 				DBA88D60214B91ED00514269 /* Categorys */,
 				DBA88D6F214B91EE00514269 /* Community */,
 				DBA88D72214B91EE00514269 /* Discover */,
@@ -422,6 +429,17 @@
 			children = (
 			);
 			path = Discover;
+			sourceTree = "<group>";
+		};
+		DBA88D7C214B963E00514269 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				DBA88D7D214B964D00514269 /* MNBaseController.h */,
+				DBA88D7E214B964D00514269 /* MNBaseController.m */,
+				DBA88D80214BA14200514269 /* MNBaseTabBarController.h */,
+				DBA88D81214BA14200514269 /* MNBaseTabBarController.m */,
+			);
+			path = Base;
 			sourceTree = "<group>";
 		};
 		DBD4A262214B2A2D00C3FA70 /* MBSwitch */ = {
@@ -604,6 +622,7 @@
 		DB870994214A64D4003049C5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = MN;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = "万启鹏";
 				TargetAttributes = {
@@ -712,6 +731,7 @@
 				DBD4A2BC214B2A2E00C3FA70 /* YBImageBrowserAnimatedTransitioning.m in Sources */,
 				DBA88D74214B91EE00514269 /* NSDictionary+Additions.m in Sources */,
 				DBA88D59214B918E00514269 /* PushAnimationView.m in Sources */,
+				DBA88D82214BA14200514269 /* MNBaseTabBarController.m in Sources */,
 				DBD4A2B5214B2A2E00C3FA70 /* YYFPSLabel.m in Sources */,
 				DB8709BD214A669F003049C5 /* AppDelegate.m in Sources */,
 				DBA88D58214B918E00514269 /* GGStartMovieView.m in Sources */,
@@ -740,6 +760,7 @@
 				DBD4A2BD214B2A2E00C3FA70 /* YBImageBrowserFunctionModel.m in Sources */,
 				DBD4A2C2214B2A2E00C3FA70 /* YBImageBrowserView.m in Sources */,
 				DBD4A2C4214B2A2E00C3FA70 /* YBImageBrowserViewLayout.m in Sources */,
+				DBA88D7F214B964D00514269 /* MNBaseController.m in Sources */,
 				DBD4A2C0214B2A2E00C3FA70 /* YBImageBrowser.m in Sources */,
 				DBD4A2B2214B2A2E00C3FA70 /* XDProgressView.m in Sources */,
 				DBA88D75214B91EE00514269 /* NSArray+MHAdd.m in Sources */,
