@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "MNBaseTabbarController.h"
+#import "GGStartMovieHelper.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +18,14 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    self.window.frame = [UIScreen mainScreen].bounds;
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = [[MNBaseTabBarController alloc]init];
+    [self.window makeKeyAndVisible];
+    if (![[NSUserDefaults standardUserDefaults]boolForKey:@"FirstLoad"]) {
+        [GGStartMovieHelper showStartMovieViewWithMovieURL:@"welcome.mp4" musicURL:@"welcome.mp3"];
+        [[NSUserDefaults standardUserDefaults]setBool:YES forKey:@"FirstLoad"];
+    }
     return YES;
 }
 

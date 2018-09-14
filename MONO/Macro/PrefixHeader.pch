@@ -42,6 +42,24 @@ dispatch_async(dispatch_get_main_queue(), block);\
 #define REGULARFONT(F) [UIFont systemFontOfSize:F weight:UIFontWeightRegular]
 #define THINFONT(F) [UIFont systemFontOfSize:F weight:UIFontWeightThin]
 
+
+
+#define KRandomColor [UIColor colorWithRed:arc4random_uniform(256)/255.0 green:arc4random_uniform(256)/255.0 blue:arc4random_uniform(256)/255.0 alpha:1.0]//随机色生成
+
+
+//-------------------打印日志-------------------------
+//DEBUG模式下打印日志,当前行
+#ifdef DEBUG
+
+#define DLog(fmt,...)NSLog((@"%s[Line %d]" fmt),__PRETTY_FUNCTION__,__LINE__,##__VA_ARGS__);
+
+#else
+
+#define DLog(...)
+
+#endif
+
+
 #define KStatusBarHeight (iPhoneX ? 24.f:0.f)
 #define KStatusBarMargin (iPhoneX ? 22.f:0.f)
 #define KTabBarHeight    (iPhoneX ? 83.f:49.f)

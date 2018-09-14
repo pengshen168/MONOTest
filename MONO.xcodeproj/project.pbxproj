@@ -37,6 +37,10 @@
 		DBA88D8E214BA64C00514269 /* DiscoverVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D8D214BA64C00514269 /* DiscoverVC.m */; };
 		DBA88D94214BA67600514269 /* MineVc.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D93214BA67600514269 /* MineVc.m */; };
 		DBA88D97214BA68B00514269 /* CommunityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D96214BA68B00514269 /* CommunityVC.m */; };
+		DBA88D9C214BAF9C00514269 /* AdModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D99214BAF9C00514269 /* AdModel.m */; };
+		DBA88D9D214BAF9C00514269 /* AdLaunchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D9A214BAF9C00514269 /* AdLaunchManager.m */; };
+		DBA88DA2214BB03C00514269 /* BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88D9F214BB03C00514269 /* BaseModel.m */; };
+		DBA88DA3214BB03C00514269 /* MNBaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = DBA88DA1214BB03C00514269 /* MNBaseModel.m */; };
 		DBD4A2AD214B2A2E00C3FA70 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD4A261214B2A2D00C3FA70 /* MBProgressHUD.m */; };
 		DBD4A2AE214B2A2E00C3FA70 /* MBSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = DBD4A263214B2A2D00C3FA70 /* MBSwitch.m */; };
 		DBD4A2AF214B2A2E00C3FA70 /* ACActionSheet.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DBD4A267214B2A2D00C3FA70 /* ACActionSheet.bundle */; };
@@ -130,6 +134,14 @@
 		DBA88D93214BA67600514269 /* MineVc.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MineVc.m; sourceTree = "<group>"; };
 		DBA88D95214BA68B00514269 /* CommunityVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommunityVC.h; sourceTree = "<group>"; };
 		DBA88D96214BA68B00514269 /* CommunityVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CommunityVC.m; sourceTree = "<group>"; };
+		DBA88D98214BAF9100514269 /* AdLaunchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdLaunchManager.h; sourceTree = "<group>"; };
+		DBA88D99214BAF9C00514269 /* AdModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdModel.m; sourceTree = "<group>"; };
+		DBA88D9A214BAF9C00514269 /* AdLaunchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdLaunchManager.m; sourceTree = "<group>"; };
+		DBA88D9B214BAF9C00514269 /* AdModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdModel.h; sourceTree = "<group>"; };
+		DBA88D9E214BB03C00514269 /* MNBaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MNBaseModel.h; sourceTree = "<group>"; };
+		DBA88D9F214BB03C00514269 /* BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseModel.m; sourceTree = "<group>"; };
+		DBA88DA0214BB03C00514269 /* BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseModel.h; sourceTree = "<group>"; };
+		DBA88DA1214BB03C00514269 /* MNBaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MNBaseModel.m; sourceTree = "<group>"; };
 		DBD4A260214B298600C3FA70 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		DBD4A261214B2A2D00C3FA70 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		DBD4A263214B2A2D00C3FA70 /* MBSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBSwitch.m; sourceTree = "<group>"; };
@@ -279,6 +291,10 @@
 		DB8709B6214A669F003049C5 /* Appdelegate */ = {
 			isa = PBXGroup;
 			children = (
+				DBA88D98214BAF9100514269 /* AdLaunchManager.h */,
+				DBA88D9A214BAF9C00514269 /* AdLaunchManager.m */,
+				DBA88D9B214BAF9C00514269 /* AdModel.h */,
+				DBA88D99214BAF9C00514269 /* AdModel.m */,
 				DB8709B7214A669F003049C5 /* AppDelegate.h */,
 				DB8709B8214A669F003049C5 /* AppDelegate.m */,
 			);
@@ -457,6 +473,10 @@
 		DBA88D7C214B963E00514269 /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				DBA88DA0214BB03C00514269 /* BaseModel.h */,
+				DBA88D9F214BB03C00514269 /* BaseModel.m */,
+				DBA88D9E214BB03C00514269 /* MNBaseModel.h */,
+				DBA88DA1214BB03C00514269 /* MNBaseModel.m */,
 				DBA88D7D214B964D00514269 /* MNBaseController.h */,
 				DBA88D7E214B964D00514269 /* MNBaseController.m */,
 				DBA88D80214BA14200514269 /* MNBaseTabBarController.h */,
@@ -760,11 +780,13 @@
 				DBA88D59214B918E00514269 /* PushAnimationView.m in Sources */,
 				DBA88D82214BA14200514269 /* MNBaseTabBarController.m in Sources */,
 				DBD4A2B5214B2A2E00C3FA70 /* YYFPSLabel.m in Sources */,
+				DBA88DA3214BB03C00514269 /* MNBaseModel.m in Sources */,
 				DB8709BD214A669F003049C5 /* AppDelegate.m in Sources */,
 				DBA88D58214B918E00514269 /* GGStartMovieView.m in Sources */,
 				DBD4A2B4214B2A2E00C3FA70 /* UITableView+SDAutoTableViewCellHeight.m in Sources */,
 				DBA88D5F214B918E00514269 /* MNRefreshBlackHeader.m in Sources */,
 				DBA88D78214B91EE00514269 /* UIImageView+WebLoad.m in Sources */,
+				DBA88DA2214BB03C00514269 /* BaseModel.m in Sources */,
 				DBA88D8E214BA64C00514269 /* DiscoverVC.m in Sources */,
 				DBD4A2C3214B2A2E00C3FA70 /* YBImageBrowserModel.m in Sources */,
 				DBD4A2C7214B2A2E00C3FA70 /* YBImageBrowserUtilities.m in Sources */,
@@ -773,6 +795,7 @@
 				DBD4A2B1214B2A2E00C3FA70 /* SPPageMenu.m in Sources */,
 				DBA88D79214B91EE00514269 /* MBProgressHUD+Message.m in Sources */,
 				DBD4A2C5214B2A2E00C3FA70 /* YBImageBrowserCopywriter.m in Sources */,
+				DBA88D9D214BAF9C00514269 /* AdLaunchManager.m in Sources */,
 				DBD4A2B8214B2A2E00C3FA70 /* JKRouter.m in Sources */,
 				DBD4A2B6214B2A2E00C3FA70 /* JKJSONHandler.m in Sources */,
 				DBD4A2B3214B2A2E00C3FA70 /* UIView+SDAutoLayout.m in Sources */,
@@ -793,6 +816,7 @@
 				DBA88D7F214B964D00514269 /* MNBaseController.m in Sources */,
 				DBD4A2C0214B2A2E00C3FA70 /* YBImageBrowser.m in Sources */,
 				DBD4A2B2214B2A2E00C3FA70 /* XDProgressView.m in Sources */,
+				DBA88D9C214BAF9C00514269 /* AdModel.m in Sources */,
 				DBA88D75214B91EE00514269 /* NSArray+MHAdd.m in Sources */,
 				DBD4A2C8214B2A2E00C3FA70 /* YBImageBrowserDownloader.m in Sources */,
 				DBA88D57214B918E00514269 /* CommendMethod.m in Sources */,

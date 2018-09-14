@@ -27,8 +27,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
-    self.view.backgroundColor = [UIColor colorWithRed:0.86 green:0.89 blue:0.91 alpha:1];
+    self.view.backgroundColor = KRandomColor;
+//    self.view.backgroundColor = [UIColor colorWithRed:0.86 green:0.89 blue:0.91 alpha:1];
     self.navigationController.navigationBar.translucent = NO;
 
     [self.navigationController.navigationBar setBackgroundImage:[[UIImage alloc] init]forBarMetrics:UIBarMetricsDefault];
